@@ -1,0 +1,122 @@
+[
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: Prueba",
+    "propertyId": "1757606165463",
+    "timestamp": "2025-09-12T00:43:19.994Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: Prueba",
+    "propertyId": "1757606165463",
+    "timestamp": "2025-09-12T00:43:19.979Z"
+  },
+  {
+    "type": "new_user",
+    "message": "Nuevo agente creado: fer",
+    "userId": "1757636034823",
+    "timestamp": "2025-09-12T00:13:54.824Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: Prueba",
+    "propertyId": "1757606165463",
+    "timestamp": "2025-09-12T00:11:29.867Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: Prueba",
+    "propertyId": "1757606165463",
+    "timestamp": "2025-09-12T00:11:29.850Z"
+  },
+  {
+    "type": "login",
+    "message": "Acceso al panel admin: admin",
+    "userId": "1",
+    "timestamp": "2025-09-11T19:10:52.577Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: Otra",
+    "propertyId": "1757611455197",
+    "timestamp": "2025-09-11T18:30:38.888Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: Otra",
+    "propertyId": "1757611455197",
+    "timestamp": "2025-09-11T18:30:38.873Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: OTRO",
+    "propertyId": "1757615208440",
+    "timestamp": "2025-09-11T18:27:10.220Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: OTRO",
+    "propertyId": "1757615208440",
+    "timestamp": "2025-09-11T18:27:10.214Z"
+  },
+  {
+    "type": "new_property",
+    "message": "Nueva propiedad agregada: OTRO",
+    "propertyId": "1757615208440",
+    "timestamp": "2025-09-11T18:26:48.441Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: Hermoso Depto",
+    "propertyId": "1757614279856",
+    "timestamp": "2025-09-11T18:25:03.831Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: Hermoso Depto",
+    "propertyId": "1757614279856",
+    "timestamp": "2025-09-11T18:25:03.822Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: Hermoso Depto",
+    "propertyId": "1757614279856",
+    "timestamp": "2025-09-11T18:24:13.757Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: Hermoso Depto",
+    "propertyId": "1757614279856",
+    "timestamp": "2025-09-11T18:24:13.741Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: Otra",
+    "propertyId": "1757611455197",
+    "timestamp": "2025-09-11T18:24:03.103Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: Otra",
+    "propertyId": "1757611455197",
+    "timestamp": "2025-09-11T18:24:03.090Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: Hermoso Depto",
+    "propertyId": "1757614279856",
+    "timestamp": "2025-09-11T18:23:42.497Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: Hermoso Depto",
+    "propertyId": "1757614279856",
+    "timestamp": "2025-09-11T18:23:42.483Z"
+  },
+  {
+    "type": "new_property",
+    "message": "Nueva propiedad agregada: Test actividad",
+    "propertyId": "test-actividad-1",
+    "timestamp": "2025-09-11T12:00:00.000Z"
+  }
+]

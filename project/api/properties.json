@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Prueba",
+    "type": "casa",
+    "operation": "renta",
+    "price": 30000,
+    "surface": 250,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "parking": 3,
+    "location": "Leona Vicario 950, Casa 11, San Mateo Atenco",
+    "description": "Super bonita casa",
+    "images": [
+      "/uploads/1757609078032-498775634-Foto0003.jpg",
+      "/uploads/1757609097799-351178176-Foto0002.jpg"
+    ],
+    "id": "1757606165463",
+    "featured": true,
+    "createdAt": "2025-09-11T12:00:00.000Z",
+    "views": 4
+  },
+  {
+    "title": "Otra",
+    "type": "departamento",
+    "operation": "venta",
+    "price": 2500000,
+    "surface": 80,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "parking": 1,
+    "location": "Romero 110, Niños Héroes, Benito Juárez, 03440 Ciudad de México, CDMX, México",
+    "description": "Hermoso departamento en Renta excelentes condiciones",
+    "images": [
+      "/uploads/1757611452689-6017346-Foto0063.jpg",
+      "/uploads/1757611452712-824589675-Foto0064.jpg",
+      "/uploads/1757611452733-936043649-Foto0065.jpg"
+    ],
+    "featured": true,
+    "id": "1757611455197",
+    "createdAt": "2025-09-10T12:00:00.000Z",
+    "views": 4
+  },
+  {
+    "title": "TSSS",
+    "type": "local",
+    "operation": "venta",
+    "price": 100000,
+    "surface": 80,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "parking": 0,
+    "location": "Circunvalación, La Merced, Zona Centro, Venustiano Carranza, 15100 Ciudad de México, CDMX, México",
+    "description": "",
+    "images": [],
+    "featured": false,
+    "id": "1757613287123",
+    "createdAt": "2025-09-09T12:00:00.000Z"
+  },
+  {
+    "title": "Hermoso Depto",
+    "type": "departamento",
+    "operation": "venta",
+    "price": 300000,
+    "surface": 100,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "parking": 2,
+    "location": "Calz. Gral. Mariano Escobedo 193, Anáhuac I Secc, Miguel Hidalgo, 11320 Ciudad de México, CDMX, México",
+    "description": "Hermoso Depto a la venta ",
+    "images": [
+      "/uploads/1757614277501-657151649-WIN_20210512_13_17_59_Pro.jpg",
+      "/uploads/1757614277563-777604044-WIN_20210518_12_08_26_Pro.jpg",
+      "/uploads/1757614277677-41508722-WIN_20210518_12_08_43_Pro.jpg"
+    ],
+    "featured": false,
+    "id": "1757614279856",
+    "views": 6,
+    "createdAt": "2025-09-11T19:10:52.648Z"
+  },
+  {
+    "title": "OTRO",
+    "type": "departamento",
+    "operation": "renta",
+    "price": 10000,
+    "surface": 60,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "parking": 1,
+    "location": "Romero 114",
+    "description": "Departamentito bonito",
+    "images": [
+      "/uploads/1757615206338-959847134-Foto0010.jpg",
+      "/uploads/1757615206359-508272276-Foto0011.jpg",
+      "/uploads/1757615206373-737122511-Foto0018_001.jpg",
+      "/uploads/1757615206386-377430483-Foto0019_001.jpg",
+      "/uploads/1757615206400-469595866-Foto0020_001.jpg",
+      "/uploads/1757615206409-19765272-Foto0021_001.jpg",
+      "/uploads/1757615206421-852495987-Foto0022_001.jpg",
+      "/uploads/1757615206430-672349030-Foto0023_001.jpg",
+      "/uploads/1757615206442-209536465-Foto0024_001.jpg"
+    ],
+    "featured": false,
+    "createdAt": "2025-09-11T18:26:48.440Z",
+    "id": "1757615208440",
+    "views": 2
+  }
+]
