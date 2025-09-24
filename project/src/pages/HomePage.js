@@ -4,7 +4,7 @@ import { ArrowRight, Star, Home, Users, Shield } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import PropertyCard from '../components/PropertyCard';
 
-const API_URL = 'http://localhost:4000/properties';
+const API_URL = 'https://propiedadesbackend.onrender.com/properties';
 
 const HomePage = ({ lang }) => {
   const [properties, setProperties] = useState([]);

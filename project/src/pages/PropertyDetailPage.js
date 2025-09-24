@@ -5,7 +5,7 @@ import { ArrowLeft, Heart, Share, MapPin, Calendar, User, Star, Eye } from 'luci
 import { formatPrice, formatSurface, formatDate, getPropertyTypeIcon } from '../utils/formatters';
 import ContactForm from '../components/ContactForm';
 
-const API_URL = 'http://localhost:4000/properties';
+const API_URL = 'https://propiedadesbackend.onrender.com/properties';
 
 const PropertyDetailPage = () => {
   const { id } = useParams();
@@ -91,7 +91,7 @@ const PropertyDetailPage = () => {
           <div className="lg:col-span-2 space-y-8">
             <motion.div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-8" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.1 }}>
               <div className="relative">
-                <img src={property.images && property.images.length > 0 ? property.images[currentImageIndex].startsWith('http') ? property.images[currentImageIndex] : `http://localhost:4000${property.images[currentImageIndex]}` : 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800'} alt={property.title} className="w-full h-96 object-cover" />
+                <img src={property.images && property.images.length > 0 ? property.images[currentImageIndex].startsWith('http') ? property.images[currentImageIndex] : `https://propiedadesbackend.onrender.com${property.images[currentImageIndex]}` : 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800'} alt={property.title} className="w-full h-96 object-cover" />
                 <div className="absolute top-4 left-4 flex gap-2">
                   <span className={`px-3 py-1 rounded-full text-sm font-semibold text-white ${property.operation === 'venta' ? 'bg-green-500' : 'bg-blue-500'}`}>{property.operation === 'venta' ? 'Venta' : 'Renta'}</span>
                   {property.featured && (
@@ -122,7 +122,7 @@ const PropertyDetailPage = () => {
                   <div className="flex gap-2 overflow-x-auto">
                     {property.images.map((image, index) => (
                       <button key={index} onClick={() => setCurrentImageIndex(index)} className={`flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition-colors ${index === currentImageIndex ? 'border-blue-500' : 'border-gray-200'}`}>
-                        <img src={image.startsWith('http') ? image : `http://localhost:4000${image}`} alt={`Vista ${index + 1}`} className="w-full h-full object-cover" />
+                        <img src={image.startsWith('http') ? image : `https://propiedadesbackend.onrender.com${image}`} alt={`Vista ${index + 1}`} className="w-full h-full object-cover" />
                       </button>
                     ))}
                   </div>

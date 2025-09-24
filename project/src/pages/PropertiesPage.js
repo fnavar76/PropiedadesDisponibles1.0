@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import PropertyCard from '../components/PropertyCard';
 import SearchFilters from '../components/SearchFilters';
 
-const API_URL = 'http://localhost:4000/properties';
+const API_URL = 'https://propiedadesbackend.onrender.com/properties';
 
 
 const PropertiesPage = ({ lang }) => {

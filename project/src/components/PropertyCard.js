@@ -8,7 +8,7 @@ const PropertyCard = ({ property, index = 0 }) => {
   const mainImage = property.images?.[0]
     ? (property.images[0].startsWith('http')
         ? property.images[0]
-        : `http://localhost:4000${property.images[0]}`)
+  : `https://propiedadesbackend.onrender.com${property.images[0]}`)
     : 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800';
 
   return (

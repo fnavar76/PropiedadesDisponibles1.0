@@ -4,7 +4,7 @@ import { BarChart3, Home, Users, Eye, TrendingUp, Calendar, Bell, Settings, Edit
 import { formatPrice } from '../utils/formatters';
 import AdminPropertyForm from '../components/AdminPropertyForm';
 
-const API_URL = 'http://localhost:4000/properties';
+const API_URL = 'https://propiedadesbackend.onrender.com/properties';
 
 const AdminPage = ({ adminUser, onLogout }) => {
   const [activeTab, setActiveTab] = useState('dashboard');
@@ -108,7 +108,7 @@ const AdminPage = ({ adminUser, onLogout }) => {
   // Fetch activities from backend
   const fetchActivities = async () => {
     try {
-      const res = await fetch('http://localhost:4000/activities');
+  const res = await fetch('https://propiedadesbackend.onrender.com/activities');
       const data = await res.json();
       setRecentActivities(data);
     } catch (e) {
@@ -133,7 +133,7 @@ const AdminPage = ({ adminUser, onLogout }) => {
   const [userError, setUserError] = useState('');
   const fetchUsers = async () => {
     try {
-      const res = await fetch('http://localhost:4000/users');
+  const res = await fetch('https://propiedadesbackend.onrender.com/users');
       setUsers(await res.json());
     } catch {
       setUsers([]);
@@ -146,11 +146,11 @@ const AdminPage = ({ adminUser, onLogout }) => {
     setUserError('');
     try {
       if (userForm && userForm.id) {
-        await fetch(`http://localhost:4000/users/${userForm.id}`, {
+  await fetch(`https://propiedadesbackend.onrender.com/users/${userForm.id}`, {
           method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data)
         });
       } else {
-        await fetch('http://localhost:4000/users', {
+  await fetch('https://propiedadesbackend.onrender.com/users', {
           method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data)
         });
       }
@@ -160,7 +160,7 @@ const AdminPage = ({ adminUser, onLogout }) => {
   };
   const handleUserDelete = async (id) => {
     if (!window.confirm('¿Eliminar este agente?')) return;
-    await fetch(`http://localhost:4000/users/${id}`, { method: 'DELETE' });
+  await fetch(`https://propiedadesbackend.onrender.com/users/${id}`, { method: 'DELETE' });
     fetchUsers();
   };
             {activeTab === 'agents' && adminUser?.role === 'admin' && (

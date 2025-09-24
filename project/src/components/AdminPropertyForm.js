@@ -40,7 +40,7 @@ export default function AdminPropertyForm({ open, onClose, onSave, property }) {
     for (const file of files) {
       const formData = new FormData();
       formData.append('image', file);
-      const res = await fetch('http://localhost:4000/upload', {
+  const res = await fetch('https://propiedadesbackend.onrender.com/upload', {
         method: 'POST',
         body: formData,
       });

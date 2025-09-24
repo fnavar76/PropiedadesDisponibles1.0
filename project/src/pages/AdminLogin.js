@@ -9,7 +9,7 @@ export default function AdminLogin({ onLogin }) {
     e.preventDefault();
     setError('');
     try {
-      const res = await fetch('http://localhost:4000/login', {
+  const res = await fetch('https://propiedadesbackend.onrender.com/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password })
