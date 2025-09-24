@@ -1,0 +1,22 @@
+# Ignora dependencias locales
+node_modules/
+
+# Ignora lockfiles en la raíz
+package-lock.json
+
+# Ignora archivos de entorno
+.env
+.env.*
+
+# Ignora archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignora directorios de build
+build/
+dist/
+
+# Ignora archivos del sistema
+.DS_Store
+Thumbs.db
