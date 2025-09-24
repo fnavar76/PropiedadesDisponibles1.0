@@ -37,7 +37,7 @@ const ContactPage = ({ lang }) => {
     {
       icon: Mail,
       title: t.email,
-      value: 'hildamontppellier@gmail.com',
+      value: 'propiedadesdisponiblesmexico@gmail.com',
       description: t.emailDesc
     },
     {

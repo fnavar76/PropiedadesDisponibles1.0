@@ -1,6 +1,30 @@
 [
   {
     "type": "view_property",
+    "message": "Propiedad vista: OTRO",
+    "propertyId": "1757615208440",
+    "timestamp": "2025-09-15T19:57:57.336Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: OTRO",
+    "propertyId": "1757615208440",
+    "timestamp": "2025-09-15T19:57:57.320Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: Hermoso Depto",
+    "propertyId": "1757614279856",
+    "timestamp": "2025-09-15T19:49:53.030Z"
+  },
+  {
+    "type": "view_property",
+    "message": "Propiedad vista: Hermoso Depto",
+    "propertyId": "1757614279856",
+    "timestamp": "2025-09-15T19:49:53.019Z"
+  },
+  {
+    "type": "view_property",
     "message": "Propiedad vista: Prueba",
     "propertyId": "1757606165463",
     "timestamp": "2025-09-12T00:43:19.994Z"

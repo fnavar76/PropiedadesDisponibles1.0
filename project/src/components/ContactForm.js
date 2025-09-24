@@ -140,7 +140,7 @@ const ContactForm = ({ propertyTitle = '', onSubmit = () => {} }) => {
           </p>
           <div className="space-y-1">
             <p className="text-sm font-medium text-gray-900">
-              📧 hildamontppellier@gmail.com
+              📧 propiedadesdisponiblesmexico@gmail.com
             </p>
             <p className="text-sm font-medium text-gray-900">
               📱 55 3150 4223
